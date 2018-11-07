@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@geekniu/zhmd_api@^1.7.35",
+        "scope": "@geekniu",
+        "escapedName": "@geekniu%2fzhmd_api",
+        "name": "@geekniu/zhmd_api",
+        "rawSpec": "^1.7.35",
+        "spec": ">=1.7.35 <2.0.0",
+        "type": "range"
+      },
+      "/data1/baas_server/baas_x37"
+    ]
+  ],
+  "_cnpm_publish_time": 1509093828127,
+  "_from": "@geekniu/zhmd_api@>=1.7.35 <2.0.0",
+  "_id": "@geekniu/zhmd_api@1.8.0",
+  "_inCache": true,
+  "_location": "/@geekniu/zhmd_api",
+  "_nodeVersion": "8.5.0",
+  "_npmUser": {
+    "name": "admin",
+    "email": "791969680@qq.com"
+  },
+  "_npmVersion": "5.4.2",
+  "_phantomChildren": {
+    "array-flatten": "1.1.1",
+    "bluebird": "3.5.0",
+    "buffer-shims": "1.0.0",
+    "cookie-signature": "1.0.6",
+    "core-util-is": "1.0.2",
+    "destroy": "1.0.4",
+    "encodeurl": "1.0.1",
+    "escape-html": "1.0.3",
+    "hooks-fixed": "2.0.0",
+    "inherits": "2.0.3",
+    "lodash": "4.17.4",
+    "merge-descriptors": "1.0.1",
+    "methods": "1.1.2",
+    "mpromise": "0.5.5",
+    "ms": "2.0.0",
+    "on-finished": "2.3.0",
+    "process-nextick-args": "1.0.7",
+    "regexp-clone": "0.0.1",
+    "require_optional": "1.0.0",
+    "sliced": "1.0.1",
+    "statuses": "1.3.1",
+    "type-is": "1.6.15",
+    "unpipe": "1.0.0",
+    "util-deprecate": "1.0.2"
+  },
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "raw": "@geekniu/zhmd_api@^1.7.35",
+    "scope": "@geekniu",
+    "escapedName": "@geekniu%2fzhmd_api",
+    "name": "@geekniu/zhmd_api",
+    "rawSpec": "^1.7.35",
+    "spec": ">=1.7.35 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://101.200.205.189:7001/@geekniu/zhmd_api/download/@geekniu/zhmd_api-1.8.0.tgz",
+  "_shasum": "b02c29b6fdfb4b85b9527d56605983ddac967f59",
+  "_shrinkwrap": null,
+  "_spec": "@geekniu/zhmd_api@^1.7.35",
+  "_where": "/data1/baas_server/baas_x37",
+  "author": "",
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "xlsx": "^0.11.1"
+  },
+  "description": "Geekniu Zhmd Api",
+  "devDependencies": {},
+  "dist": {
+    "shasum": "b02c29b6fdfb4b85b9527d56605983ddac967f59",
+    "size": 35332,
+    "key": "/@geekniu/zhmd_api/-/@geekniu/zhmd_api-1.8.0.tgz",
+    "tarball": "http://101.200.205.189:7001/@geekniu/zhmd_api/download/@geekniu/zhmd_api-1.8.0.tgz"
+  },
+  "gitHead": "511bcc29a44539bc8bf990964617e3fe6499a75b",
+  "keywords": [
+    "zhmd"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "admin",
+      "email": "791969680@qq.com"
+    }
+  ],
+  "name": "@geekniu/zhmd_api",
+  "optionalDependencies": {},
+  "publish_time": 1509093828127,
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.0"
+}
