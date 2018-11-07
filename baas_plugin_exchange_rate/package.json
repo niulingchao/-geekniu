@@ -1,0 +1,37 @@
+{
+  "_from": "@geekniu/baas_plugin_exchange_rate@^1.0.2",
+  "_id": "@geekniu/baas_plugin_exchange_rate@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-TgVFXFih81nuMgUOygbKgVVBMpA=",
+  "_location": "/@geekniu/baas_plugin_exchange_rate",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@geekniu/baas_plugin_exchange_rate@^1.0.2",
+    "name": "@geekniu/baas_plugin_exchange_rate",
+    "escapedName": "@geekniu%2fbaas_plugin_exchange_rate",
+    "scope": "@geekniu",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://101.200.205.189:7001/@geekniu/baas_plugin_exchange_rate/download/@geekniu/baas_plugin_exchange_rate-1.0.2.tgz",
+  "_shasum": "4e05455c58a1f359ee32050eca06ca8155413290",
+  "_spec": "@geekniu/baas_plugin_exchange_rate@^1.0.2",
+  "_where": "/data/data1",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "### index.js * 每个插件都要导出一个Class * 每个Class必须拥有start和stop两个方法,分别表示启动与停止 * 每个Class的构造器中可使用Baas传入的所有值,其中包括配置文件或其它资源文件,是一个大Object类型,具体传入的值以Baas为准 * 每个Class可以有一个is_load_all_woker的静态方法，返回true or false,来判断是否让所有的worker加载插件 ### 获取资源示例如下: * 直接从构造器中获得的资源有(`以下资源均只读,不可修改`):     * app.baas(它的属性如下)         * config             * baas_config(对应baas文件baas_config.json)             * configManager             * log4js         * router         * model             * Data(Model)             * Op(Model)             * User(Model)             * Keygen(Model)",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@geekniu/baas_plugin_exchange_rate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
